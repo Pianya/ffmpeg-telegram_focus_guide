@@ -25,6 +25,20 @@ ffmpeg -ss 00:00:56 -t 3 -i "input.mkv" img%3d.png
 ffmpeg -start_number 21 -framerate 24000/1001 -i img%3d.png -vframes 30 -c:v libx264 -pix_fmt yuv420p output1.mp4 
 ``
 
+如果视频源是1080P，可能需要调整scale。（注2：安卓客户端可能会识别为"video"）
+在解压图片时加入：
+
+``
+-vf "scale=400:226"
+``
+
+在本例子中，也就是修改第一行命令为
+
+``
+ffmpeg -ss 00:00:56 -t 3 -i "input.mkv" -vf "scale=400:226" img%3d.png
+``
+
+400是telegram显示"gif"的较长边的长度。如果需要节省整个制作过程的占用空间，以及上传流量，也可以这么做。
 
 telegram的"gif"参数：
 
