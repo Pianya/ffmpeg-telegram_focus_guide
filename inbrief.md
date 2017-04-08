@@ -1,4 +1,4 @@
-# 简短版本
+# 大纲
 
 ## 制作"gif"。
 
@@ -15,19 +15,16 @@ ffmpeg处理视频文件的功能强大，是各种播放器和其他工具的�
 ffmpeg入门（30分钟--1小时）:https://github.com/FiveYellowMice/how-to-convert-videos-with-ffmpeg-zh/blob/master/01-write-in-front.md
 
 例子：LoliHouse小林家的妹抖龙09。
-```
-ffmpeg -ss 00:00:57 -t 3 -i "input.mkv" img%3d.png
-ffmpeg -start_number 21 -vframes 30 -framerate 24000/1001 -i img%3d.png -c:v=libx264 -pix_fmt=yuv420p output1.mp4 
-```
+``
+ffmpeg -ss 00:00:56 -t 3 -i "input.mkv" img%3d.png
+``
 
-步骤：
-1. 截取
+先把大致的范围截取出来
 
-```
+``
+ffmpeg -start_number 21 -framerate 24000/1001 -i img%3d.png -vframes 30 -c:v libx264 -pix_fmt yuv420p output1.mp4 
+``
 
-ffmpeg -i "1.mp4" -img%3d.png
-
-```
 
 telegram的"gif"参数：
 
