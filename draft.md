@@ -3,7 +3,7 @@
 ## 制作"GIFS"。
 
 为什么直接截取mp4片段上传telegram？
-.gif是大家熟知的动态图片格式。许多聊天软件都使用该格式。不过，telegram在16年就已经将用户上传的.gif文件一律转码为了MPEG-4格式视频，也就是x264编码的.mp4文件。--<cite>[1]<\cite>
+.gif是大家熟知的动态图片格式。许多聊天软件都使用该格式。不过，telegram在16年就已经将用户上传的.gif文件一律转码为了MPEG-4格式视频，也就是[x264编码的.mp4文件][1] https://telegram.org/blog/gif-revolution。
 
 - gif格式只有256色，mp4->gif往往会有画质问题，比如potplayer录制gif（注1：解决办法，detail版notes）
 - 在telegram有不错的解码器支持的情况下，mp4比gif体积小得多，效果也好
