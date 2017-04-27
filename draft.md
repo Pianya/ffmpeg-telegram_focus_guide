@@ -24,6 +24,8 @@ ffmpeg入门（30分钟--1小时）:https://github.com/FiveYellowMice/how-to-con
 
 例子：LoliHouse小林家的妹抖龙09。
 
+几乎逃不掉的重编码
+
 1. 先把大致的范围截取出来并解压为PNG图片
 
 ``
