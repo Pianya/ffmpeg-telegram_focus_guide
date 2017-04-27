@@ -57,4 +57,4 @@ telegram的"gif"参数：
 裁剪
 
 references
-[1]: https://telegram.org/blog/gif-revolution
+[1]: https://telegram.org/blog/gif-revolution "telegram GIF"
