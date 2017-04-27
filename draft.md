@@ -2,6 +2,12 @@
 
 ## 制作"GIFS"。
 
+如果您：
+- 是telegram用户；
+- 看到视频中可爱的画面想制作动图和朋友分享却只能在网上收集别人制作的gif；
+- 对某些gif的画质有强烈怨念：比如这种
+
+
 为什么直接截取mp4片段上传telegram？
 .gif是大家熟知的动态图片格式。许多聊天软件都使用该格式。不过，telegram在16年就已经将用户上传的.gif文件一律转码为了MPEG-4格式视频，也就是[x264编码的.mp4文件](https://telegram.org/blog/gif-revolution) 。
 
